@@ -1,0 +1,15 @@
+# Streamlit settings. The dark theme is fixed here so the app looks the same
+# locally and on Streamlit Community Cloud, whatever the visitor's system theme.
+[theme]
+base = "dark"
+primaryColor = "#01b4e4"              # TMDB light blue, used for buttons and focus rings
+backgroundColor = "#0d1117"
+secondaryBackgroundColor = "#161b22"  # sidebar, expanders, inputs
+textColor = "#e6edf3"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"

@@ -1,0 +1,8 @@
+# Batch files must keep Windows line endings or cmd.exe can misread them.
+*.bat text eol=crlf
+
+# Binary data and model artifacts: never touch line endings, never diff as text.
+*.db binary
+*.joblib binary
+*.png binary
+*.jpg binary

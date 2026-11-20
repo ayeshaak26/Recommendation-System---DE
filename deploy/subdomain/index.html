@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Movie Recommender | Ayesha Khan</title>
+  <meta name="description" content="Pick a movie and get ten similar ones with posters and trailers. Built on an automated TMDB data pipeline.">
+  <style>
+    /* The app fills the whole window; the page itself never scrolls. */
+    html, body { height: 100%; margin: 0; background: #0d1117; color: #e6edf3;
+                 font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+    iframe { display: block; width: 100%; height: 100%; border: 0; }
+    noscript, .fallback { display: block; padding: 2rem; text-align: center; }
+    a { color: #01b4e4; }
+  </style>
+</head>
+<body>
+  <!--
+    This page lives on the subdomain (shared hosting cannot run a Python app).
+    It shows the Streamlit app, which is hosted on Streamlit Community Cloud.
+
+    AFTER DEPLOYING: replace YOUR-APP-NAME in the two places below with the
+    address Streamlit gives you. Keep "?embed=true" on the iframe: it hides
+    Streamlit's own toolbar and footer so the app looks like part of your site.
+  -->
+  <iframe
+    src="https://YOUR-APP-NAME.streamlit.app/?embed=true"
+    title="Movie Recommender"
+    allow="fullscreen; encrypted-media; picture-in-picture"
+    allowfullscreen>
+    <span class="fallback">
+      Your browser cannot show the embedded app.
+      <a href="https://YOUR-APP-NAME.streamlit.app/">Open the Movie Recommender</a>
+    </span>
+  </iframe>
+</body>
+</html>

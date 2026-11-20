@@ -1,0 +1,189 @@
+{
+  "metrics": {
+    "tfidf": {
+      "precision@10": 0.2557,
+      "recall@10": 0.2002,
+      "hit_rate": 0.8233
+    },
+    "embeddings": {
+      "precision@10": 0.2193,
+      "recall@10": 0.1642,
+      "hit_rate": 0.7333
+    }
+  },
+  "evaluated_movies": 300,
+  "note": null,
+  "avg_shared_recommendations": 1.73,
+  "winner": "tfidf",
+  "spot_checks": {
+    "Inception": {
+      "tfidf": [
+        "The Death of Robin Hood",
+        "In the Grey",
+        "Apex",
+        "Tenet",
+        "New World",
+        "The Life of Chuck",
+        "The Union",
+        "Pitch Perfect 2",
+        "The Cell",
+        "Play Dirty"
+      ],
+      "embeddings": [
+        "Dream Scenario",
+        "Criminal",
+        "In the Grey",
+        "Source Code",
+        "Primer",
+        "Abduction",
+        "Conspiracy Theory",
+        "Catch Me If You Can",
+        "Extraction 2",
+        "Knowing"
+      ],
+      "tmdb": [
+        "16 Blocks",
+        "Déjà Vu",
+        "Gemini Man",
+        "Ghost in the Shell",
+        "Heart of Stone",
+        "Insurgent",
+        "Minority Report",
+        "Paycheck",
+        "Push",
+        "RED",
+        "RoboCop",
+        "Solo: A Star Wars Story",
+        "TRON: Legacy",
+        "Tenet",
+        "The Dark Tower",
+        "The Darkest Minds",
+        "The Electric State",
+        "The Maze Runner"
+      ]
+    },
+    "Toy Story": {
+      "tfidf": [
+        "Toy Story 2",
+        "Toy Story 3",
+        "Toy Story 4",
+        "Toy Story 5",
+        "Lightyear",
+        "The 40 Year-Old Virgin",
+        "Husbands in Action",
+        "The Angry Birds Movie 2",
+        "Rebel Without a Cause",
+        "The City of Lost Children"
+      ],
+      "embeddings": [
+        "Toy Story 2",
+        "Toy Story 4",
+        "Toy Story 3",
+        "Toy Story 5",
+        "Ted 2",
+        "The Lego Movie",
+        "Child's Play 2",
+        "Ted",
+        "LEGO Friends: Heartlake the Musical",
+        "Big"
+      ],
+      "tmdb": [
+        "Big Hero 6",
+        "Kronk's New Groove",
+        "Leo",
+        "Meet the Robinsons",
+        "Monsters University",
+        "Monsters, Inc.",
+        "Mr. Peabody & Sherman",
+        "My Little Pony: The Movie",
+        "Smurfs: The Lost Village",
+        "Stuart Little",
+        "The Little Prince",
+        "The Secret Life of Pets 2",
+        "Tinker Bell and the Lost Treasure",
+        "Toy Story 2",
+        "Toy Story 3",
+        "Toy Story 4",
+        "Toy Story 5"
+      ]
+    },
+    "The Godfather": {
+      "tfidf": [
+        "The Godfather Part II",
+        "The Godfather Part III",
+        "The Irishman",
+        "The Alto Knights",
+        "Animal",
+        "GoodFellas",
+        "Road to Perdition",
+        "Death at a Funeral",
+        "Gatto",
+        "The Many Saints of Newark"
+      ],
+      "embeddings": [
+        "The Godfather Part III",
+        "The Godfather Part II",
+        "Donnie Brasco",
+        "Tokyo Godfathers",
+        "American Gangster",
+        "Scarface",
+        "John Wick: Chapter 2",
+        "A History of Violence",
+        "Analyze This",
+        "Pulp Fiction"
+      ],
+      "tmdb": [
+        "A Bronx Tale",
+        "A Haunting in Venice",
+        "A Walk Among the Tombstones",
+        "All the Money in the World",
+        "Casino",
+        "Death Wish",
+        "GoodFellas",
+        "The Alto Knights",
+        "The American",
+        "The Bikeriders",
+        "The Godfather Part II",
+        "The Godfather Part III",
+        "The Irishman",
+        "Thief"
+      ]
+    },
+    "Parasite": {
+      "tfidf": [
+        "Possible Love",
+        "Joker",
+        "Bad Apples",
+        "The Host",
+        "Triangle of Sadness",
+        "180",
+        "To All the Boys: Always and Forever",
+        "The Intern",
+        "The Last Viking",
+        "Hidden"
+      ],
+      "embeddings": [
+        "The Host",
+        "New World",
+        "Killer Klowns from Outer Space",
+        "Exhuma",
+        "KPop Demon Hunters",
+        "Oldboy",
+        "Good News",
+        "The Sadness",
+        "Memories of Murder",
+        "The Villainess"
+      ],
+      "tmdb": [
+        "Code 3",
+        "Falling Down",
+        "I Care a Lot",
+        "Joker",
+        "Kinds of Kindness",
+        "New World"
+      ]
+    }
+  },
+  "built_at": "2026-11-21T00:08:46",
+  "n_movies": 5437
+}

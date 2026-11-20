@@ -1,0 +1,22 @@
+# Everything needed to run the pipeline, the notebooks and the tests locally.
+#   pip install -r requirements-pipeline.txt
+-r requirements.txt
+
+# ---- Extract / validate ----
+requests>=2.32.0
+tenacity>=9.0.0          # retries with exponential backoff
+pandera>=0.21.0          # data quality checks
+
+# ---- ML ----
+scikit-learn>=1.6.0      # TF-IDF + cosine similarity
+sentence-transformers>=3.3.0   # all-MiniLM-L6-v2 embeddings (pulls in PyTorch, ~120 MB on CPU)
+
+# ---- Notebooks + scheduled run reports ----
+jupyter>=1.1.0
+ipykernel>=6.29.0
+papermill>=2.6.0
+nbconvert>=7.16.0
+matplotlib>=3.9.0
+
+# ---- Tests ----
+pytest>=8.3.0

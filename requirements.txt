@@ -1,0 +1,12 @@
+# App-only dependencies. Streamlit Community Cloud installs THIS file, so it is kept small:
+# the app just reads data/curated/ and needs no PyTorch, scikit-learn or API client.
+#
+# To run the pipeline, notebooks or tests, install requirements-pipeline.txt instead
+# (it includes everything in this file).
+streamlit>=1.60.0
+pandas>=2.2.3
+numpy>=2.0               # the saved model arrays were written with numpy 2
+joblib>=1.4.2            # loads data/curated/neighbours.joblib
+python-dotenv>=1.0.1     # pipeline/config.py reads .env when it exists
+pyarrow==22.0.0          # used by Streamlit and the staged Parquet layer. Pinned: Windows
+                         # Smart App Control blocks the Parquet DLL in 26.0.1; 22.0.0 is allowed.
