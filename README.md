@@ -5,7 +5,7 @@ similar ones as a poster grid, each with its rating, genres, overview and YouTub
 app, a pipeline pulls new and changed movies from the TMDB API, validates them, loads them into SQLite
 and rebuilds the recommender only when the catalogue has changed.
 
-**Live demo:** _add the Streamlit Community Cloud link here after deploying_
+**Live demo:** <https://recommendation-system.ayeshakhan.tech>
 
 ![The app showing recommendations for The Godfather](docs/images/app_recommendations.jpg)
 
@@ -165,8 +165,8 @@ Requirements: Python 3.11 or newer and a free [TMDB API key](https://www.themovi
 (v3 auth). The commands below are for Windows PowerShell.
 
 ```powershell
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/ayeshaak26/Recommendation-System---DE.git
+cd Recommendation-System---DE
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements-pipeline.txt

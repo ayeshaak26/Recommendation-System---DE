@@ -1,6 +1,6 @@
 # LinkedIn post and portfolio description
 
-Replace `[LIVE DEMO LINK]` and `[GITHUB LINK]` before publishing. Every number below comes from the
+Every number below comes from the
 project's own runs (see the README's Results section), so update them if you re-run the pipeline.
 
 ---
@@ -31,8 +31,8 @@ What I learned building it:
 
 Stack: Python, pandas, SQLite, pandera, scikit-learn, sentence-transformers, papermill, Streamlit, Windows Task Scheduler. 72 automated tests.
 
-Live demo: [LIVE DEMO LINK]
-Code and write-up: [GITHUB LINK]
+Live demo: https://recommendation-system.ayeshakhan.tech
+Code and write-up: https://github.com/ayeshaak26/Recommendation-System---DE
 
 This product uses the TMDB API but is not endorsed or certified by TMDB.
 
@@ -48,8 +48,8 @@ A scheduled pipeline pulls new and changed movies from the TMDB API, validates t
 
 One surprise: plain TF-IDF beat sentence embeddings when scored against TMDB's own recommendations (precision@10 of 0.26 vs 0.22).
 
-Demo: [LIVE DEMO LINK]
-Code: [GITHUB LINK]
+Demo: https://recommendation-system.ayeshakhan.tech
+Code: https://github.com/ayeshaak26/Recommendation-System---DE
 
 #DataEngineering #MachineLearning #Python
 
@@ -102,8 +102,8 @@ Python · pandas · SQLite · pandera · requests + tenacity · scikit-learn · 
 
 **Links**
 
-- Live demo: [LIVE DEMO LINK]
-- Source code: [GITHUB LINK]
+- Live demo: https://recommendation-system.ayeshakhan.tech
+- Source code: https://github.com/ayeshaak26/Recommendation-System---DE
 
 **Attribution (keep this on the portfolio page)**
 
